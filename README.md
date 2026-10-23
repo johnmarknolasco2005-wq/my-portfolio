@@ -1,1 +1,25 @@
-# my-portfolio
+# John Mark Nolasco — Portfolio
+
+A responsive personal portfolio built with plain HTML, CSS, and JavaScript. It includes a project showcase, an Excel food-delivery data analysis with a downloadable workbook, certificates, contact form, resume preview, and the THREADLINE storefront demo.
+
+## Run locally
+
+Open `index.html` in a browser. No build step or package installation is required. The Google Fonts used by the site need an internet connection; the rest of the site is served from these files.
+
+## Before publishing
+
+- Review the contact details in `index.html`. Anything shown here, including your email, phone number, and resume, will be public.
+- Update the project descriptions and certificates so they accurately represent your work. The food-delivery analysis is based on a 50-order sample; keep its workbook alongside `index.html` so the download link works.
+- Edit `resume.html` as the source for resume updates, then export the revised version as `resume.pdf` for the portfolio preview and download.
+- The contact form opens the visitor's email application. It does not send or store messages itself.
+- THREADLINE is a front-end demo. Its sample sign-in, admin access, checkout, and order tracking are not secure or connected to real services. Do not use real passwords, payment details, or customer information.
+
+## Publish with GitHub Pages
+
+1. Create a GitHub repository for this portfolio and upload the contents of this folder to the repository root.
+2. Keep the filenames and folder structure unchanged, including `projects/threadline_clothing_store/`, `food-delivery-data-analysis.xlsx`, the CSS and JavaScript files, images, and `resume.pdf`. The site uses relative links so it works at a GitHub Pages project URL.
+3. In the repository, open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**, select the `main` branch and `/ (root)`, then save.
+5. Wait for the Pages deployment to finish. Open the URL shown in **Settings → Pages** and verify the portfolio and THREADLINE demo links.
+
+GitHub Pages hosts static files only. A real store with shared accounts, inventory, orders, or payments needs a separately hosted backend and secure payment integration.
